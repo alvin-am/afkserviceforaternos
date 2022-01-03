@@ -9,7 +9,4 @@ jobs:
       image: ubuntu-1604-cuda-10.1:201909-23
 
     steps:
-      - node/install:
-          install-yarn: true
-          node-version: '16.13'
       - run: node index.js
